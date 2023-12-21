@@ -2,9 +2,11 @@
   "expo": {
     "plugins": [
     [
-      "expo-camera",
+      "expo-media-library",
       {
-        "cameraPermission": "Allow $(PRODUCT_NAME) to access your camera."
+        "photosPermission": "Allow $(PRODUCT_NAME) to access your photos.",
+        "savedPhotosPermission": "Allow $(PRODUCT_NAME) to save photos.",
+        "isAccessMediaLocationEnabled": "true"
       }
     ]
   ],

@@ -53,7 +53,8 @@ export default function App() {
       style={styles.camera}
       type={type}
       flashMode={flash}
-      ref={cameraRef}>
+      ref={cameraRef}
+      >
         <View style={{
           flexDirection: 'row',
           justifyContent:'space-between',
@@ -94,13 +95,13 @@ export default function App() {
 
 const styles = StyleSheet.create({
   container: {
-    flex: 1,
+    flex:1,
     backgroundColor: '#000',
-    alignItems: 'center',
-    paddingBottom: 15
+    justifyContent: 'center',
+    paddingBottom: 20,
   },
   camera: {
-    flex:1,
+    flex:3,
     borderRadius: 20, 
   }
 });

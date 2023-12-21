@@ -101,7 +101,7 @@ const styles = StyleSheet.create({
     paddingBottom: 20,
   },
   camera: {
-    flex:3,
+    flex:1,
     borderRadius: 20, 
   }
 });
